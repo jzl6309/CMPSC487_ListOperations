@@ -15,6 +15,13 @@ public class Item{
         itemDesc = desc;
     }
 
+    public Item(int id, String name, String desc, Image image) {
+        itemID = id;
+        itemName = name;
+        itemDesc = desc;
+        img = image;
+    }
+
     public int getID(){
         return itemID;
     }

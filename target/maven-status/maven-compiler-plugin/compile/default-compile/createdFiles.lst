@@ -1,5 +1,7 @@
 com/example/SortServletName$1.class
 com/example/SortServletID.class
+com/example/SearchByKeywordServlet.class
+com/example/SearchByIDServlet.class
 com/example/AddItemServlet.class
 com/example/RemoveItemServlet.class
 com/example/SortServletID$1.class

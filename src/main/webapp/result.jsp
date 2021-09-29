@@ -36,7 +36,18 @@ out.println(it.next()+"<br>");
         <input type="text" name="ID" placeholder="Enter Item ID"/>
         <input type="submit" value="Remove Item">
         </form>
+<h3>"Wanna search by ID"</h3>
+        <form method="post" action="SearchByIDServlet">
+        Search by ID:
+        <input type="text" name="ID" placeholder="Enter Item ID"/>
+        <input type="submit" value="Search ID">
+        </form>
 
-
+<h3>"Wanna search by keyword"</h3>
+        <form method="post" action="SearchByKeywordServlet">
+        Search by Keyword:
+        <input type="text" name="keyword" placeholder="Enter a keyword"/>
+        <input type="submit" value="Search Keyword">
+        </form>
 </body>
 </html>
