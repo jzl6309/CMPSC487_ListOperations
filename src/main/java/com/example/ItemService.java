@@ -48,6 +48,7 @@ public class ItemService {
             i++;
         }
         if (items.get(i).getID() == ID) items.remove(items.get(i));
+        itemCnt--;
     }
 
     public List searchByID(int ID) {
@@ -73,5 +74,17 @@ public class ItemService {
         }
 
         return list;
+    }
+
+    public List editItem(int ID, String name, String desc) {
+        int i = 0;
+        while (i < items.size() && items.get(i).getID() != ID) {
+            i++;
+        }
+        if (items.get(i).getID() == ID) {
+            items.get(i).setItemName(name);
+            items.get(i).setItemDesc(desc);
+        }
+        return items;
     }
  }

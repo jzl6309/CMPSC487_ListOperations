@@ -4,7 +4,7 @@
 <body>
 <center>
 <h1>
-    Available Brands
+    Available Items
 </h1>
 <%
 List result= (List) request.getAttribute("items");
@@ -35,6 +35,16 @@ out.println(it.next()+"<br>");
         ID:
         <input type="text" name="ID" placeholder="Enter Item ID"/>
         <input type="submit" value="Remove Item">
+        </form>
+<h3>"Wanna edit an item"</h3>
+        <form method="post" action="EditServlet">
+        ID:
+        <input type="text" name="ID" placeholder="ID of item to edit"/>
+        Name:
+        <input type="text" name="editName" placeholder="Enter New Name"/>
+        Desc:
+        <input type="text" name="editDesc" placeholder="Enter New Description"/>
+        <input type="submit" value="Update Item">
         </form>
 <h3>"Wanna search by ID"</h3>
         <form method="post" action="SearchByIDServlet">

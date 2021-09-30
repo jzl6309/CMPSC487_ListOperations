@@ -2,6 +2,9 @@
 /home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/AddItemServlet.java
 /home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/ListOperationsServlet.java
 /home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/RemoveItemServlet.java
+/home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/SearchByKeywordServlet.java
 /home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/Item.java
+/home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/SearchByIDServlet.java
+/home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/EditServlet.java
 /home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/ItemService.java
 /home/nughufer/IdeaProjects/ListOperations/src/main/java/com/example/SortServletID.java

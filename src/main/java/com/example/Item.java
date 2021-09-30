@@ -39,4 +39,7 @@ public class Item{
                 getDesc());
     }
 
+    public void setItemName(String name){ itemName = name; }
+    public void setItemDesc(String desc){ itemDesc = desc; }
+
 }
